@@ -1,1 +1,28 @@
-.env
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local db
+*.db
+test.db
+
+# Virtual environment
+venv/
+env/
+
+# Uploaded files
+uploads/
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
