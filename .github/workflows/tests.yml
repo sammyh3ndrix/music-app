@@ -2,9 +2,9 @@ name: Run Tests
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "*" ]   # ✅ Run tests on ALL branches
   pull_request:
-    branches: [ "main" ]
+    branches: [ "*" ]   # ✅ Run tests on ALL PRs
 
 jobs:
   test:
